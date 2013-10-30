@@ -31,3 +31,15 @@ func ExampleReplace() {
   fmt.Println(s)
   // Output: asSabc ddd dsjkdsjs dk
 }
+
+func ExampleReverse() {
+  s := "foobar"
+  r := make([]rune, len(s))
+
+  for i, c := range s {
+    r[len(s)-i] = c
+  }
+
+  fmt.Println(r)
+  // Output: raboof
+}
