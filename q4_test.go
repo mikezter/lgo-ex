@@ -22,7 +22,7 @@ func ExampleCount() {
   s2 := "􏰥􏰶􏱚􏱤􏱚􏱤 􏰹􏰹􏰹 􏰹􏰶􏱙􏱦􏰹􏰶􏱙􏰶 􏰹􏱦"
 
   fmt.Println(len(s2), utf8.RuneCount([]byte(s2)))
-  // Output: 22
+  // Output: 79 22
 }
 
 func ExampleReplace() {
