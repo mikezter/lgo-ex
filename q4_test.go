@@ -19,9 +19,15 @@ func ExamplePyramid() {
 }
 
 func ExampleCount() {
-  //s := "asSASA ddd dsjkdsjs dk"
   s2 := "􏰥􏰶􏱚􏱤􏱚􏱤 􏰹􏰹􏰹 􏰹􏰶􏱙􏱦􏰹􏰶􏱙􏰶 􏰹􏱦"
 
   fmt.Println(len(s2), utf8.RuneCount([]byte(s2)))
   // Output: 22
+}
+
+func ExampleReplace() {
+  s := "asSASA ddd dsjkdsjs dk"
+  s = strings.Replace(s, "ASA", "abc", 1)
+  fmt.Println(s)
+  // Output: asSabc ddd dsjkdsjs dk
 }
