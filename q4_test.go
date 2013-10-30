@@ -37,7 +37,7 @@ func ExampleReverse() {
   r := make([]rune, len(s))
 
   for i, c := range s {
-    r[len(s)-i] = c
+    r[len(s)-i-1] = c
   }
 
   fmt.Println(r)
