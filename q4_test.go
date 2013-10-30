@@ -40,6 +40,6 @@ func ExampleReverse() {
     r[len(s)-i-1] = c
   }
 
-  fmt.Println(r)
+  fmt.Println(string(r))
   // Output: raboof
 }
