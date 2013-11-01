@@ -43,3 +43,4 @@ func ExampleReverse() {
   fmt.Println(string(r))
   // Output: raboof
 }
+
