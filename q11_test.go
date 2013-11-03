@@ -14,7 +14,7 @@ func fibo(n int) int {
 
 func ExampleFibo() {
 
-  n := 1
+  n := 0
   for i := n + 1; i < n+8; i++ {
     v := fibo(i)
     fmt.Printf("%v ", v)
