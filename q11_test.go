@@ -16,8 +16,8 @@ func ExampleFibo() {
 
   n := 30
   for i := n + 1; i < n+3; i++ {
-    fmt.Print(fibo(i))
-
+    v := fibo(i)
+    fmt.Printf("%v ", v)
   }
   // Output: 1 1 2 3 5 8 13
 }
